@@ -29,7 +29,7 @@
     <?php
     $myname = "ernest";
     $myage = "19";
-    echo "my name is".$myname."and I am".$myage."years old";
+    echo "my name is ".$myname."and I am".$myage."years old";
     ?>
 </p>
 </body>
