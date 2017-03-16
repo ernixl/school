@@ -36,9 +36,9 @@
 <p>
     <?php
     $name = "edgar";
-    if ($name == "simon") {
+    if ($name == "simon")
         print "who are you!";
-    } else print "who are you";
+    else print "I know you";
     ?>
 
 </p>
