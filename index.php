@@ -21,7 +21,7 @@
 <p>
     <?php
     echo "5*7<br>";
-    echo 5*8;
+    echo 5 * 8;
     ?>
 
 </p>
