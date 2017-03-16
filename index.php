@@ -64,7 +64,7 @@
     ?>
 </p>
 <?php
-$user = "marce";
+$user = "mce";
 switch ($user){
     case ernest:
         echo "you are a valid user";
