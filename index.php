@@ -96,5 +96,12 @@
     foreach($provisionedactivity as $x) print "<p>$x</p>"
     ?>
 </p>
+
+<p>
+    <?php
+    $days = array($y>=1 and $y<=30);
+    foreach ($days as $y) print "<p>$y</p>"
+    ?>
+</p>
 </body>
 </html>
