@@ -71,10 +71,13 @@ switch ($user){
         break;
     case irene:
         echo "you are not allowed access";
+        break;
     case brian:
         echo "access denied";
+        break;
     case marce:
         echo "access forbidden";
+        break;
     default:
         echo "please enter your name";
 }
