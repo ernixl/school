@@ -90,5 +90,11 @@
     echo $myarray[1]
     ?>
 </p>
+<p>
+    <?php
+    $provisionedactivity = array("specs","mugs","sausage rolls");
+    foreach($provisionedactivity as $x) print "<p>$x</p>"
+    ?>
+</p>
 </body>
 </html>
