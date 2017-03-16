@@ -6,4 +6,4 @@
  * Time: 11:07
  */
 
-echo "hello world";
+echo "My very first php trial, simply trying to make it right";
