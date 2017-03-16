@@ -63,24 +63,26 @@
     }
     ?>
 </p>
-<?php
-$user = "mce";
-switch ($user){
-    case ernest:
-        echo "you are a valid user";
-        break;
-    case irene:
-        echo "you are not allowed access";
-        break;
-    case brian:
-        echo "access denied";
-        break;
-    case marce:
-        echo "access forbidden";
-        break;
-    default:
-        echo "please enter your name";
-}
-?>
+<p>
+    <?php
+    $user = "mce";
+    switch ($user) {
+        case ernest:
+            echo "you are a valid user";
+            break;
+        case irene:
+            echo "you are not allowed access";
+            break;
+        case brian:
+            echo "access denied";
+            break;
+        case marce:
+            echo "access forbidden";
+            break;
+        default:
+            echo "please enter your name";
+    }
+    ?>
+</p>
 </body>
 </html>
