@@ -23,7 +23,14 @@
     echo "5*7<br>";
     echo 5 * 8;
     ?>
+</p>
 
+<p>
+    <?php
+    $myname = "ernest";
+    $myage = "19";
+    echo "my name is".$myname."and I am".$myage."years old";
+    ?>
 </p>
 </body>
 </html>
