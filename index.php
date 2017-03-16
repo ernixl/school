@@ -39,7 +39,7 @@
 </p>
 <p>
     <?php
-$age = "30";
+$age = "17";
 if ($age >= "16" and $age<= "18")print "buy specs";
     else if ($age > "18" and $age <= "21") print "buy mugs";
     else if ($age>"21")print "buy sausage rolls";
