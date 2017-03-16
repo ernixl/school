@@ -84,5 +84,11 @@
     }
     ?>
 </p>
+<p>
+    <?php
+    $myarray = array("do","re","mi");
+    echo $myarray
+    ?>
+</p>
 </body>
 </html>
