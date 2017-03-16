@@ -39,11 +39,29 @@
 </p>
 <p>
     <?php
-$age = "18";
-if ($age >= "16" and $age<= "18")print "buy specs";
+    $age = "18";
+    if ($age >= "16" and $age <= "18") print "buy specs";
     else if ($age > "18" and $age <= "21") print "buy mugs";
-    else if ($age>"21")print "buy sausage rolls";
+    else if ($age > "21") print "buy sausage rolls";
     ?>
 </p>
+<p>
+    <?php
+    $wantedgood = "mugs";
+    switch ($wantedgood){
+        case mugs:
+            echo "over 16";
+            break;
+        case specs:
+            echo " between 18 and 21";
+            break;
+        case sausages:
+            echo "over 21";
+            break;
+        default:
+            echo "nothing selecetd";
+    }
+    ?>
+    </p>
 </body>
 </html>
