@@ -92,7 +92,7 @@
 </p>
 <p>
     <?php
-    $provisionedactivity = array("specs","mugs","sausage rolls");
+    $provisionedactivity = array("specs","mugs","sausage rolls","trial");
     foreach($provisionedactivity as $x) print "<p>$x</p>"
     ?>
 </p>
