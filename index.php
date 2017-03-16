@@ -6,7 +6,7 @@
  <p>
  <?php
  echo "Hello World" . "<br>";
- echo "My very first php trial, simply trying to make it right";
+ echo "My very first php trial, simply trying to make it right is it right?";
  echo "<br>";
  ?>
 </p>
