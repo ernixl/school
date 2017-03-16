@@ -29,8 +29,18 @@
     <?php
     $myname = "ernest";
     $myage = "19";
-    echo "my name is not ".$myname." and I am".$myage."years old";
+    echo "my name is not " . $myname . " and I am" . $myage . "years old";
     ?>
+</p>
+
+<p>
+    <?php
+    $name = "edgar";
+    if ($name == "simon") {
+        print "who are you!";
+    } else print "who are you";
+    ?>
+
 </p>
 </body>
 </html>
