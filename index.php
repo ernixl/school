@@ -1,7 +1,7 @@
 <!DOCTYPEhtml>
 <html>
 <head>
-    The exercise just started
+    <h1>The exercise just started</h1>
 </head>
 <body>
 <p>
