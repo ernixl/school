@@ -87,7 +87,7 @@
 <p>
     <?php
     $myarray = array("do","re","mi");
-    echo $myarray
+    echo $myarray[1]
     ?>
 </p>
 </body>
