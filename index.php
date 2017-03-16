@@ -47,7 +47,7 @@
 </p>
 <p>
     <?php
-    $wantedgood = "specs";
+    $wantedgood = "sausages";
     switch ($wantedgood){
         case mugs:
             echo "over 16";
@@ -59,7 +59,7 @@
             echo "over 21";
             break;
         default:
-            echo "nothing selecetd";
+            echo "error";
     }
     ?>
     </p>
