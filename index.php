@@ -47,7 +47,7 @@
 </p>
 <p>
     <?php
-    $wantedgood = "sausages";
+    $wantedgood = "sausa";
     switch ($wantedgood){
         case mugs:
             echo "over 16";
