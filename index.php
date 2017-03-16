@@ -35,7 +35,7 @@
 
 <p>
     <?php
-    $name = "edgar";
+    $name = "simon";
     if ($name == "simon")
         print "who are you!";
     else print "I know you";
