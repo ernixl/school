@@ -48,7 +48,7 @@
 <p>
     <?php
     $wantedgood = "sausa";
-    switch ($wantedgood){
+    switch ($wantedgood) {
         case mugs:
             echo "over 16";
             break;
@@ -62,6 +62,22 @@
             echo "error";
     }
     ?>
-    </p>
+</p>
+<?php
+$user = "ernest";
+switch ($user){
+    case ernest:
+        echo "you are a valid user";
+        break;
+    case irene:
+        echo "you are not allowed access";
+    case brian:
+        echo "access denied";
+    case marce:
+        echo "access forbidden";
+    default:
+        echo "please enter your name";
+}
+?>
 </body>
 </html>
